@@ -1,0 +1,109 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  transition: var(--transition);
+}
+
+.header-scrolled {
+  background: rgba(245, 237, 228, 0.92);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-soft);
+}
+
+.header-logo {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-espresso);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-logo-img {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav a {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  transition: color var(--transition);
+}
+
+.header-nav a:hover {
+  color: var(--color-espresso);
+}
+
+.header-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  padding: 4px;
+}
+
+.header-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-espresso);
+  transition: var(--transition);
+}
+
+.header-toggle span:nth-child(1).open {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.header-toggle span:nth-child(2).open {
+  opacity: 0;
+}
+
+.header-toggle span:nth-child(3).open {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (max-width: 768px) {
+  .header-toggle {
+    display: flex;
+  }
+
+  .header-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(280px, 85vw);
+    flex-direction: column;
+    padding: 5rem 2rem 2rem;
+    background: var(--color-cream);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.08);
+    transform: translateX(100%);
+    transition: transform var(--transition);
+  }
+
+  .header-nav.nav-open {
+    transform: translateX(0);
+  }
+
+  .header-nav a {
+    font-size: 1.125rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--color-cream-dark);
+  }
+}
