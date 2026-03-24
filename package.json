@@ -7,7 +7,7 @@
     "dev": "vite",
     "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
     "server": "cd server && npm run start",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
