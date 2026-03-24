@@ -7,7 +7,7 @@ const menuItems = [
   { id: 2, name: 'Cold Coffee', category: 'coffee', price: '₹220', desc: 'Chilled espresso with vanilla ice cream, whipped cream', image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop' },
   { id: 3, name: 'Cappuccino', category: 'coffee', price: '₹250', desc: 'Perfect foam art, premium Arabica beans', image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop' },
   { id: 4, name: 'Espresso', category: 'coffee', price: '₹150', desc: 'Single origin, double shot, authentic Italian style', image: 'https://www.sharmispassions.com/wp-content/uploads/2012/07/espresso-coffee-recipe022.jpg' },
-  { id: 5, name: 'Mocha Latte', category: 'coffee', price: '₹280', desc: 'Dark chocolate, espresso, steamed milk, whipped cream', image: 'https://buenosairesrunway.com/wp-content/uploads/2025/08/image-97-31.jpg' },
+  { id: 5, name: 'Mocha Latte', category: 'coffee', price: '₹280', desc: 'Dark chocolate, espresso, steamed milk, whipped cream', image: 'https://milkandpop.com/wp-content/uploads/2020/11/mocha-latte-17.jpg' },
   { id: 6, name: 'Nitro Cold Brew', category: 'coffee', price: '₹260', desc: 'Smooth nitrogen-infused, 48hr steeped', image: 'https://i.pinimg.com/1200x/18/da/2f/18da2fad7461d22ec47f3a8d7da6e7b3.jpg' },
 
   // Tea Section
