@@ -1,4 +1,4 @@
-# ☕ Brew & Co — Table Booking & Admin Management System
+# ☕Brew & Co — Table Booking & Admin Management System
 
 > A modern, responsive café landing page with a fully integrated reservation system — featuring real-time admin controls and automated email notifications.
 
@@ -154,10 +154,10 @@ Customer notified via email
 
 ## 👩‍💻 Author
 
-**Ganashri**
+**Ganashri Londhe**
 
-[![GitHub]]((https://github.com/ganashrilondhe-creator))
-
+[![GitHub](https://img.shields.io/badge/GitHub-yourusername-181717?logo=github)]([https://github.com/yourusername](https://github.com/ganashrilondhe-creator))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://linkedin.com/in/yourprofile)
 
 ---
 
@@ -165,4 +165,3 @@ Customer notified via email
 
 Built as a personal learning project to understand real-world web application workflows — from frontend design through to backend automation and admin tooling.
 
----
